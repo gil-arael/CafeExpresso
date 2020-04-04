@@ -1,0 +1,248 @@
+body {
+    background-image: url('../img/fondo.jpg');
+
+    @media (max-width: 768px) {
+        display: block;
+
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        background-image: url('../img/fondo2.jpg');
+    }
+}
+
+header {
+    width: 1100px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 768px) {
+        display: block;
+        width: 700px;
+        height: 280px;
+
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        width: 300px;
+        height: 280px;
+        margin: 10px auto;
+    }
+}
+
+.logo {
+    width: 20%;
+    align-content: center;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.titulo {
+    margin-top: 2rem;
+    text-align: center;
+    font: oblique bold 100% cursive;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        font: oblique bold 80% cursive;
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+        text-align: center;
+        font: oblique bold 50% cursive;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 900;
+    text-align: center;
+}
+
+.form_wrap {
+    width: 1100px;
+    height: 570px;
+    margin: 50px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 768px) {
+        display: block;
+        width: 700px;
+        height: 870px;
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        width: 300px;
+        height: 950px;
+        margin: 20px auto;
+    }
+}
+
+.cantact_info {
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+
+    .info_title {
+        @media (max-width: 768px) {
+            width: 100%;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+form.form_contact {
+    width: 62%;
+    padding: 30px 40px;
+
+    @media (max-width: 768px) {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+form.form_contact .user_info {
+    display: flex;
+    flex-direction: column;
+}
+
+form.form_contact label {
+    font-weight: 600;
+}
+
+form.form_contact input {
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+    font-family: 'Open sans';
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+form.form_contact input[type="button"] {
+    width: 180px;
+    background: #4091EC;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.final {
+    width: 1100px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    align-items: center;
+
+    @media (max-width: 768px) {
+        display: block;
+        width: 700px;
+        height: 130px;
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        width: 300px;
+        height: 150px;
+        margin: 10px auto;
+    }
+}
+
+.foter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        display: block;
+        margin-top:auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 480px) {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.foter img {
+    margin-right: 2rem;
+}

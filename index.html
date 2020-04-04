@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <title>Cafe Expreso</title>
+    <style>
+        .regis {
+            width: 100px;
+            height: 100px;
+            transition: width 2s, height 5s, transform 2s;
+        }
+
+        .regis:hover {
+            width: 100px;
+            height: 100px;
+            transform: rotate(360deg);
+        }
+        
+        .info_title img {
+            margin: 100px;
+            width: 150px;
+            height: 100px;
+            background-color: transparent;
+            animation-name: escale;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes escale {
+            100% {transform: scale(2,3);}
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="hed">
+            <div class="logo">
+                <a href="#"><img class="img" src="img/LogoCafeExpressoTransparente.png" alt="Logo" width="175" height="150"></a>
+            </div>
+            <div class="titulo">
+                <h1>Desimo aniversario en agosto de la cafeteria Cafe Expresso.</h1>
+            </div>
+        </header>
+
+        <section class="form_wrap">
+
+            <section class="cantact_info">
+                <section class="info_title">
+                    <img src="img/BolaCafeMolido.png" alt="Cafe Expresso" height="250" width="250">
+                </section>
+                <section class="info_items">
+                    <p>Oferta de nuestra bolsa estrella con el 25% de descuento
+                        solo en Agosto del 2020</p>
+                </section>
+            </section>
+
+            <form id="formulario" onsubmit="return validarFormulario()" action="" class="form_contact">
+                <h1 class="regis" style="color: #4091EC">Registrate</h1>
+                <p id="errores"></p>
+                <div class="user_info">
+                    <label for="names">Nombre:</label>
+                    <input type="text" id="nombre">
+
+                    <label for="phone">Telefono / Celular:</label>
+                    <input type="text" id="numero">
+
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" id="correo">
+                    <input type="button" id="guardar" value="Registrar" class="btn btn">
+                </div>
+            </form>
+        </section>
+
+        <footer class="final">
+            <div class="foter">
+                <a href="#"><img src="img/instagram.png" alt="Instagram" height="30" width="30"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facabook" height="30" width="30"></a>
+                <a href="#"><img src="img/whatsapp.png" alt="Whatsapp" height="30" width="30"></a>
+                <p>Todos los derechos reservados <strong>2019 &copy; GIL ARAEL</strong></p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+header {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    background-color: deeppink;
+}
+.logo {
+    width: 20%;
+    align-content: center;
+}
+.titulo {
+    text-align: center;
+    font: oblique bold 120% cursive;
+}
+h1 {
+   align-content: center;
+    font-weight: 900;
+}
+p {
+    font-weight: 900;
+}
+.row {
+    display: flex;
+}
+.imagen {
+    text-align: center;
+    margin-top: 2rem;
+}
+.contenido {
+    text-align: center;
+}
+.reg{
+    font: oblique bold 120% cursive;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+aside {
+    display: block;
+    align-items: center;
+    background-color: #E407E8;
+    width: 100%;
+}
+.btn {
+    align-items: center;
+    margin-top: 1rem;
+}
+footer {
+    display: flex;
+    background-color: deeppink;
+}
+.abajo {
+    align-items: center;
+    display: inline-flex;
+}
